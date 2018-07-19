@@ -1,0 +1,29 @@
+.card-header{
+    background-image:linear-gradient(
+        #ffffff, #002d51
+            ); 
+    opacity: .7px;
+    height: auto;
+    position: relative;
+    color: #002d51;
+    overflow: auto;
+    margin-top: 148px;
+    text-align: center;
+   
+}
+
+.navbar li{
+    display: inline-block;
+    padding: 26px 0;
+    width: 33.3%;
+    text-align: center;
+}
+
+img{
+    height: 36px;
+}
+
+h6{
+    font-size: 21px
+}
+

@@ -1,0 +1,154 @@
+body {
+  background-image: url('image/mundi2.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.App{
+ padding: 0;
+}
+
+a {
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.4s;
+  font-size: 14pt;
+}
+
+a:hover {
+  color: #d6e5f3;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.top-bar {
+  padding: 10px 15px;
+  margin-bottom: 50px;
+  /* margin-top: -35px; */
+}
+.top-bar::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.top-bar-left {
+  float: left;
+  font-size: 1.5em;
+}
+
+.top-bar-right {
+  float: right;
+  margin-top: 27pt;
+}
+
+.top-bar a,
+.nav a {
+  margin: 0 8px;
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+  /* width: 700px; */
+}
+
+.card-heading {
+  padding: 16px;
+}
+
+.field-line, .button-line {
+  padding: 16px;
+}
+
+.error-message {
+  padding: 0 16px;
+  color: tomato;
+}
+
+.success-message {
+  padding: 0 16px;
+  color: green;
+}
+
+.logo{
+  width: 50%;
+  height: 50%;
+}
+
+.top-bar {
+  background:#002d51;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+ }
+
+ .card-heading{
+  color: #002d51;
+  font-size: 31px;
+  margin-bottom: 0px;
+ }
+
+ .field-line, .button-line {
+  padding: 7px;
+ }
+
+ .person{
+  /* width: 9%; */
+  margin-top: 8px;
+ }
+
+ .Select-control{
+  width: 50%!important;
+  margin-left: 25%
+ }
+
+ /* Styles chat */
+
+ .mck-box-top {
+  background-color : #002d51;
+ }
+
+ #mck-msg-new.mck-btn{
+  background-color : #002d51;
+  }
+
+  .mck-msg-right .mck-msg-box{
+  background-color: #002d51;
+  color:white;
+  }
+
+  mck-msg-left .mck-msg-box{
+  background-color: white;
+  color:black;
+  }
+/*   This is for the floating button */
+
+  .float{
+   position:fixed;
+   width:70px;
+   height:70px;
+   bottom:350px;
+   right:14px;
+   background-color: #002d51;
+   color:#FFF;
+   border-radius:50px;
+   text-align:center;
+   box-shadow: 2px 2px 3px #999;
+   z-index: 5;
+}
+
+.my-float{
+   margin-top:28px;
+}
+
+.PaperOpen{
+  background-color:inherit !important;
+  text-align: center!important
+}

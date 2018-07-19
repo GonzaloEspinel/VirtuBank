@@ -1,0 +1,43 @@
+.container{
+    width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    margin-top: 230px;
+  }
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Paper{
+  background-color:inherit !important;
+  height: 216px;
+  padding: 0px
+}
+
+
+.Grid:hover {
+  box-shadow: 8px 8px 20px rgb(4, 14, 48)!important;
+  transform: scale(1.1);
+  cursor: pointer;
+  opacity: .5px;
+ }
+ 
+.Grid:active {
+  transform: translate(1px, 1px);
+ }
+
+ .Grid > div{
+  height: auto!important;
+ }
+
+ .headerImg{
+   /* height: 60% !important;
+   top: 31%!important; */
+   width: 60%!important;
+ }
